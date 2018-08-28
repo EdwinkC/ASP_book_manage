@@ -1,0 +1,7 @@
+C:\Users\12625\Desktop\201694021015+软工16-1+赵鹏飞\bin\201694021015+软工16-1+赵鹏飞.dll.config
+C:\Users\12625\Desktop\201694021015+软工16-1+赵鹏飞\bin\201694021015+软工16-1+赵鹏飞.dll
+C:\Users\12625\Desktop\201694021015+软工16-1+赵鹏飞\bin\201694021015+软工16-1+赵鹏飞.pdb
+C:\Users\12625\Desktop\201694021015+软工16-1+赵鹏飞\obj\Release\201694021015+软工16-1+赵鹏飞.csproj.CoreCompileInputs.cache
+C:\Users\12625\Desktop\201694021015+软工16-1+赵鹏飞\obj\Release\201694021015+软工16-1+赵鹏飞.csproj.CopyComplete
+C:\Users\12625\Desktop\201694021015+软工16-1+赵鹏飞\obj\Release\201694021015+软工16-1+赵鹏飞.dll
+C:\Users\12625\Desktop\201694021015+软工16-1+赵鹏飞\obj\Release\201694021015+软工16-1+赵鹏飞.pdb

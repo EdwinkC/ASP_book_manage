@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="_201694021015_软工16_1_赵鹏飞.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            margin-top:50px;
+            width: 820px;
+  
+        }
+        .style2
+        {
+            font-family: 宋体, Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            width: 205px;
+        }
+        .style3
+        {
+            font-family: 宋体, Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            width: 205px;
+        }
+        .style4
+        {
+            font-family: 宋体, Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            width: 205px;
+        }
+        .style5
+        {
+            font-family: 宋体, Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            width: 205px;
+        }
+        .style6
+        {
+            font-size: small;
+            text-align: center;
+            color:white;
+            background-color:#004387;
+        }
+        .newStyle
+        {
+            text-decoration: none;
+            color: #000000;
+        }
+        
+        a:link
+        {
+            text-decoration: none;
+            color: #000000;
+        }
+        a:visited
+        {
+            text-decoration: none;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table align="center" bgcolor="White" class="style1">
+            <tr>
+                <td align="center" colspan="4">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/image/logo.jpg" />
+                </td>
+            </tr>
+            <tr style="text-align: center" valign="middle">
+                <td align="center" class="style2">
+                    <asp:Image ID="Image2" runat="server" ImageUrl="~/image/00.jpg" Height="32px" 
+                        style="text-align: left" Width="47px" />
+                    <a class="newStyle" href="index.aspx">系统说明</a></td>
+                <td class="style3">
+                    <asp:Image ID="Image4" runat="server" ImageUrl="~/image/11.jpg" Height="30px" 
+                        Width="39px" />
+                    <a href="borrow.aspx">图书借阅</a></td>
+                <td class="style4">
+                    <asp:Image ID="Image5" runat="server" ImageUrl="~/image/22.jpg" Height="30px" 
+                        Width="49px" />
+                    <a href="return.aspx">图书归还</a></td>
+                <td class="style5">
+                    <asp:Image ID="Image6" runat="server" ImageUrl="~/image/33.jpg" Height="30px" 
+                        Width="53px" />
+                    <a href="login.aspx" class="newStyle">用户登录</a></td>
+            </tr>
+            <tr>
+                <td colspan="4"> <p class="style6">&nbsp;</p></td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder0" runat="server">
+                        <asp:Label ID="currentUser" runat="server" Font-Size="Small"></asp:Label>
+                        <asp:Button ID="logOut" Text="注销" runat="server" OnClick="logOut_Click"/>
+                    </asp:ContentPlaceHolder>
+                    <hr />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" class="style6" height="70">
+                    版权所有：齐鲁工业大学&nbsp;&nbsp;&nbsp;&nbsp; 地址：济南市长清区齐鲁工业大学 &nbsp;&nbsp;邮编：000000</td>
+            </tr>
+        </table>
+       
+    </div>
+    </form>
+</body>
+</html>
